@@ -3,7 +3,7 @@ body {
     font-family: 'Circular,Helvetica Neue,Helvetica,Arial' sans-serif;;
 }
 .content {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
 }
 .head {
@@ -216,3 +216,12 @@ a {
     position: relative;
     overflow: hidden;
 }
+
+
+
+  @media (min-width: 900px) and (max-width : 1824px){
+    .content {
+        width: 50%;
+        margin: 0 auto;
+      }
+  }
